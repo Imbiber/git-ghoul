@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🕷️ GitGhoul: The Haunted Codebase & Zombie Code Exorcist
 
-## Getting Started
+> **"Where dead code rests, and clean commits rise."**  
+> Built for **Hacktoberfest 2026 Open-Source AI Challenge: Week 4 — Ghost in the Machine**.  
+> Powered by **Google Gemma 2** running 100% locally via **Ollama**.
 
-First, run the development server:
+---
 
+## 👻 Overview
+
+Every codebase accumulates ghosts:
+- 🧟 **Zombie Code**: Dead functions and unreachable execution paths that slow down comprehension and bundle size.
+- 🕯️ **Spectral TODOs**: Forgotten comments from 2021 like `// TODO: Temporary fix until next sprint` that haunt pull requests for years.
+- ⚰️ **Comment-Cloth Corpses**: Old implementations commented out instead of deleted because developers fear losing history.
+- 🌀 **Cursed Complexity**: Deep callback abysses and tangled logic that consume developer souls.
+
+**GitGhoul** inspects codebases, renders a visual cemetery of dead code tombstones, and uses **Google Gemma 2** running on-device via Ollama to perform an **Exorcism**: generating clean refactors and unified git diffs ready for pull requests.
+
+---
+
+## 🔒 Why Open Innovation Matters
+
+In the spirit of Hacktoberfest Week 4:
+1. **Total Code Sovereignty & Privacy**: Source code contains trade secrets, unreleased features, internal keys, and IP. Cloud LLM APIs expose sensitive code to third-party servers. GitGhoul runs 100% on your laptop.
+2. **Runs Offline with the Lights (and Internet) Off**: Works without an internet connection in air-gapped environments or remote retreats.
+3. **Zero Token Tax**: Exorcise millions of lines of dead code without paying cloud API subscription fees.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 16 (App Router + Turbopack)
+- **Local AI Inference**: [Google Gemma 2](https://ollama.com/library/gemma2) running via [Ollama](https://ollama.com)
+- **Styling**: Tailwind CSS (Gothic / Retro 8-bit dark aesthetic)
+- **Icons**: Lucide React
+- **Celebration Effects**: Canvas Confetti
+
+---
+
+## 🚀 Getting Started
+
+### 1. Ensure Ollama & Gemma 2 are running locally
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Make sure Ollama is installed and running
+ollama run gemma2
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Install dependencies & run development server
+```bash
+npm install
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📜 License
+MIT License. Built with 💜 for Hacktoberfest 2026.
